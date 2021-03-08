@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
-	"testing"
 	"time"
+	"testing"
 )
 
 var (
@@ -108,9 +108,10 @@ var (
 	panics = 0
 )
 
+
 const (
 	ITERATIONS = 10000000
-	SEED       = 1487873697990155515
+	SEED = 1487873697990155515
 )
 
 func init() {
